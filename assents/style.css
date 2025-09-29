@@ -1,0 +1,250 @@
+body {
+    background-color: rgba(51, 42, 43, 1);
+}
+
+.navbar {
+    background-color: #332a2b !important;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color:#CDA43F !important;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+.link_navbar {
+    background-color: #CDA43F;
+    border-radius: 8px;
+}
+
+.link_navbar:hover {
+    color: #fff !important;
+}
+
+#comeco {
+    background-image: 
+        linear-gradient(180deg, rgba(50, 41, 42, 0.3), rgba(51, 42, 43, 1)),
+        url('https://lavimobili.com.br/wp-content/uploads/2022/06/banner-principal.jpg');
+    background-color: #B69195;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comeco .principal {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column;
+    margin-top: 125px
+}
+
+.comeco .principal h1, .comeco .principal p {
+    align-items: center;
+    color: #fff !important;
+}
+
+.comeco .principal p {
+    font-size: 18px;
+}
+
+.qualificacoes .container .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+    background: rgba(51, 42, 43, 1);
+}
+
+.itens-qualificacoes {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.itens-qualificacoes img {
+    margin: 30px 0px;
+    width: 175px;
+}
+
+.sobre {
+    background: #fff;
+    padding: 100px;
+}
+
+.sobre img {
+    width: 700px;
+}
+
+.sobre .texto-sobre {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: #332a2b;
+}
+
+.sobre .texto-sobre hr {
+    height: 1px;
+    border: none;
+    background-color: white;
+}
+
+#servicos {
+    padding : 100px;
+}
+
+.texto-sonhos {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card:hover .card-img {
+    transform: scale(1.05);
+}
+
+.card-img-overlay {
+    display: flex;
+    justify-content: flex-end;  
+    flex-direction: column;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+.card:hover .card-img-overlay {
+    transform: translateY(-5px);
+    transform: scale(1.05);
+    background: rgb(205, 164, 63, 0.3);
+}
+
+.projetos {
+    padding: 100px;
+    background-color: #fff;
+    color: #332a2b;
+}
+
+.projetos img {
+    width: 1000px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+        
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+        
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+        
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+        
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+        
+.gallery-item:hover .gallery-overlay {
+    transform: translateY(0);
+}
+        
+.category-filter {
+    margin-bottom: 30px;
+}
+        
+.category-btn {
+    margin: 0 5px 10px;
+}
+
+.maps iframe {
+    width: 1800px;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contato {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.contato .principal {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin-top: 125px
+}
+
+.contato .principal img, .contato .principal p {
+    color: #332a2b !important;
+}
+
+footer {
+    background-color: #332a2b;
+    color: white;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+}
+        
+.footer-links a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin-right: 15px;
+}
+        
+.footer-links a:hover {
+    color: white;
+}
+
+.contato .social-icons a {
+    color: #332a2b;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.contato .social-icons a:hover {
+    color: #CDA43F;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+        
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
